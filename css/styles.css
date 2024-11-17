@@ -1,0 +1,67 @@
+body {
+    font-family: "Roboto Slab", serif;
+    background: linear-gradient(135deg, #8E3E63, #d276a3, #F6FAB9, #CAE6B2);
+    min-height: 100vh;
+}
+.hero {
+    background: linear-gradient(45deg, #F7B5CA, #f4eded);
+    padding: 100px 0;
+    border-radius: 0 0 50% 50% / 20px;
+}
+.project-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+.project-card .card-img-top {
+    height: 200px;
+}
+.project-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.project-card .card-text {
+    flex-grow: 1;
+}
+.skill-item {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.skill-item:hover {
+    transform: scale(1.1);
+}
+.skill-item img {
+    max-width: 60%;
+    max-height: 60%;
+}
+.navbar {
+    background: linear-gradient( #cabcc0);
+    backdrop-filter: blur(10px);
+}
+.btn-primary {
+    background-color: #7b68ee;
+    border-color: #7b68ee;
+    margin-top: auto;
+}
+.btn-primary:hover {
+    background-color: #6a5acd;
+    border-color: #6a5acd;
+}
